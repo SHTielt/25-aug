@@ -1,0 +1,49 @@
+#main-content div.container {
+	padding-top: 27px;
+}
+
+#rechtsVormenTabel {
+    position: relative;
+    width: 100%;/*van de container*/
+    height: auto;
+    overflow: auto;/*If overflow is clipped, a scroll-bar should be added to see the rest of the content*/
+    margin: 0 auto 16px;
+}
+
+
+table#rechtsVormenTabel thead th {
+    font-size: 14px;
+    /*font-weight: bold niet nodig; HTML5 zorgt hier wellicht reeds voor*/
+    text-align: left; /*HTML5 centreert*/
+    padding-left: 0.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+table#rechtsVormenTabel tbody td {
+    font-size: 14px;
+    padding-left: 0.5em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+.sh_rvnaam {
+	width: 30%;
+}
+
+.sh_actie {
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

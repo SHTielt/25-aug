@@ -1,0 +1,33 @@
+div.et_pb_section {
+	padding-top: 0;
+}
+
+.onderdeel {
+	margin-bottom: 2em;
+}
+
+#bestuursTabel, #bestuursTabel thead, #bestuursTabel tbody, #bestuursTabel tr, #bestuursTabel th, #bestuursTabel td {
+	border: 0;
+}
+
+#bestuursTabel tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#bestuursTabel tr:last-child {
+	border-bottom: 0;
+}
+
+strong {
+	color: #333;
+}
+
+#contactpersoon {
+	margin-bottom: 1em;
+}
+
+#internet {
+	text-align: center;
+}
+
+

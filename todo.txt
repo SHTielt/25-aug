@@ -1,0 +1,35 @@
+
+
+
+* wissen in form contactpersoon per jquery
+bij keuze van bestuurslid als cp waarden invullen AJAX
+
+
+opm:
+load wp library
+kleur van header border bottom nt gevonden
+
+php change bg color png
+css refactren, alle paginas afprintbaar, indentatuie
+jquery sectoren
+javascript berichten stylen
+
+
+
+lijntje ipv hr
+titel op nieuws pag
+
+formulier in FF nt ok
+
+jquery change event not responding to value 0
+
+
+contactpersoon wissen
+
+alle foutenoverdragen naar gefaald pagina
+
+Ingeborg: 1)info verenigingen verder aanvullen; meer info vinf je hier;meer info vind je via deze link
+          2) accordion voor info vrijwilligers en verenigingen
+Wouter: menu kleuren met die van wouter, logo
+Op server: 1 bad behavior 2 seo 3. backwpup 4. anti hacking
+

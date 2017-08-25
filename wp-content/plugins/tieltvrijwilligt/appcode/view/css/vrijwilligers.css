@@ -1,0 +1,65 @@
+#vrijwilligersTabel {
+    position: relative;
+    width: 100%;/*van de container*/
+    height: auto;
+    overflow: auto;/*If overflow is clipped, a scroll-bar should be added to see the rest of the content*/
+    margin: 0 auto 16px;
+    
+}
+
+
+#vrijwilligersTabel thead th {
+    height: 32px;
+    /*font-weight: bold niet nodig; HTML5 zorgt hier wellicht reeds voor*/
+    text-align: left; /*HTML5 centreert*/
+    vertical-align: middle;
+    padding-left: 0.5em;
+
+}
+
+#vrijwilligersTabel tbody td {
+    height: 32px;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: middle;
+    padding-left: 0.5em;
+}
+
+.sh_vrvoornaam {
+	width: 20%;
+}
+
+.sh_vrnaam {
+	width: 20%;
+}
+
+.sh_vrgeboortedatum {
+	width: 15%;
+}
+
+.sh_vrstatus {
+	width: 10%;
+}
+
+.sh_vractief {
+    width: 5%;
+}
+
+.sh_actie {
+    width: 15%; /*vaste kolombreedte vermijdt variabele breedte calculatie*/
+}
+
+#warningDeletion {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

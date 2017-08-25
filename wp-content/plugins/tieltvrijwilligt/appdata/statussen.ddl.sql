@@ -1,0 +1,8 @@
+USE sociaalhuis; 
+DROP TABLE IF EXISTS sh_statussen; 
+
+CREATE TABLE sh_statussen ( 
+	sID INT NOT NULL AUTO_INCREMENT, 
+	CONSTRAINT PRIMARY KEY(sID), 
+	sNaam VARCHAR (255) CHARACTER SET UTF8 NULL
+) engine=innoDB;

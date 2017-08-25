@@ -1,0 +1,9 @@
+USE sociaalhuis; 
+DROP TABLE IF EXISTS sh_functies; 
+
+CREATE TABLE sh_functies ( 
+	funcID INT NOT NULL AUTO_INCREMENT, 
+	CONSTRAINT PRIMARY KEY(funcID), 
+	funcNaam VARCHAR (255) CHARACTER SET UTF8 NOT NULL,
+    funcInfo VARCHAR (255) CHARACTER SET UTF8 NULL
+    ) engine=innoDB;

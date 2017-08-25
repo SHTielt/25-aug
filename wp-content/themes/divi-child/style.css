@@ -1,0 +1,258 @@
+/*
+Theme Name: Divi child
+Template: Divi
+Author: RE
+Version: 1.0
+Website: Sociaal Huis
+*/
+
+@import url('../divi/style.css');
+
+
+
+/*HEADER*/
+
+.account_class {
+    float: left;
+}
+
+#menu-account-menu {
+    display: inline-block;
+}
+
+#menu-account-menu li {
+    position: relative;
+    text-align: right;
+    margin-right: 15px;
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+#menu-account-menu > li > a:hover {
+    opacity: 0.7;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#et-secondary-menu > ul > li a, #menu-account-menu > li > a {
+    text-transform: uppercase;
+}
+
+#welcome_user {
+    float: left;
+    padding-left: 15px;
+    border-left: solid 1px #fff;
+}
+
+#top-menu li li a {
+	padding: 0 20px;
+}
+
+.nav li ul {
+	padding: 10px 0;
+}
+
+/*BODY*/
+
+#main-content {
+	min-height: 600px;
+}
+
+a.sh:hover {
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+#wetgevingmenu {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#wetgevingmenu li {
+	display: inline-block;
+	padding: 0 0.5em;
+	
+}
+
+#wetgevingmenu li:first-child {
+	padding-left: 0;
+	border-right: solid 1px #000;
+}
+
+
+
+#vrijwilligerswerk, #vrijwilligersloket {
+	width: 1080px;
+	margin: 0 auto 1em auto;
+}
+
+#uploaddiv, #fotodiv {
+	display: inline-block;
+	width: 50%;
+}
+
+#fotodiv {
+	float: right;
+	text-align: center;
+	margin-top: 16px;
+}
+
+
+
+/*FOOTER*/
+
+#footer-bottom {
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+}
+
+/*SIDEBAR*/
+
+
+
+/*PAGES*/
+/*login page*/
+.tml-action-links {
+	display:none !important;
+}
+
+/*home page*/
+#post-4 .et_pb_section {
+	padding: 0;
+}
+
+#post-4 .et_pb_section_2 .et_pb_row {
+	padding-top: 0;
+}
+
+#post-4 .et_pb_module {
+	margin-bottom: 3%;
+}
+
+.et_pb_column_1_3 img {
+	border-radius: 5px;
+	border: 2px solid #fff;
+}
+
+.et_pb_column_1_3 img:hover {
+	border: 0;
+}
+
+/*wetgeving page*/
+#post-150 .et_pb_section {
+	padding: 0;
+}
+
+#post-150 .et_pb_row {
+	padding-bottom: 2.7px;
+}
+
+/*tieltse verenigingen*/
+#post-152 .et_pb_section {
+	padding: 0;
+}
+
+/*ik zoek vrijwilligerswerk*/
+#post-16 .et_pb_section {
+	padding: 0;
+}
+
+/*ik zoek vrijwilligers*/
+#post-134 .et_pb_section {
+	padding: 0;
+}
+
+/*FAQ*/
+#post-147 .et_pb_section {
+	padding: 0;
+}
+
+
+/*contact page*/
+#post-8 .et_pb_section {
+	padding: 0;
+}
+
+.wpcf7-form input:not([type=submit]), .wpcf7-form textarea {
+	width: 50%;
+	border-radius: 1px;
+	box-shadow: 1px 1px 1px #888;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #ff5000;
+	height: 30px;
+	padding: 4px 12px;
+	border: 1px solid #6b4b15;
+	border-radius: 25px;
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
+	cursor: pointer;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	
+	
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover{
+	opacity: 0.75;
+}
+
+/*blog*/
+.blog article {
+	text-align: justify;
+}
+
+
+/*DEFAULT SCREENS and TABLETS in LANDSCAPE*/
+
+@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){} 
+
+
+
+/*end DEFAULTS SCREENS and TABLETS in LANDSCAPE*/
+
+
+
+/*SMARTPHONES and TABLETS in PORTRAIT*/
+
+@media screen and (max-width: 800px) {} 
+
+/*end SMARTPHONES and TABLETS in PORTRAIT*/
+
+
+
+/*SMALL SMARTPHONES*/
+
+@media screen and (max-width: 480px) {} 
+
+/*end SMALL SMARTPHONES*/
+
+
+
+/*PRINT*/
+
+@media print {
+.row-fluid {display: none;}    
+#actionsdiv {display: none;}   
+#main-footer  {display: none;}   
+#et_mobile_nav_menu {display: none;}   
+#et_top_search  {display: none;}
+#main-header {height: 100px;}
+.logo_container { text-align: center;}
+#logo {width: 100%; }
+#sluitinfo {display: none;}
+.sh_actie {display: none;} 
+}
+
+
+
+/*5:4 SCREENS*/
+
+@media only screen and (max-width: 1280px) and (max-height: 1024px) {    } 
+
+
+
+/*end 5:4 screens*/

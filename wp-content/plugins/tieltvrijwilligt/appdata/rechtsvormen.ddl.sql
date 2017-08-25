@@ -1,0 +1,9 @@
+USE sociaalhuis; 
+DROP TABLE IF EXISTS sh_rechtsvormen; 
+
+CREATE TABLE sh_rechtsvormen ( 
+	rvID INT NOT NULL AUTO_INCREMENT, 
+	CONSTRAINT PRIMARY KEY(rvID), 
+	rvNaam VARCHAR (255) CHARACTER SET UTF8 NOT NULL,
+    rvInfo VARCHAR (255) CHARACTER SET UTF8 NULL
+) engine=innoDB;

@@ -1,0 +1,10 @@
+USE sociaalhuis; 
+DROP TABLE IF EXISTS sh_interesses; 
+
+CREATE TABLE sh_interesses ( 
+	intID INT NOT NULL AUTO_INCREMENT, 
+	CONSTRAINT PRIMARY KEY(intID), 
+	intNaam VARCHAR (255) CHARACTER SET UTF8 NULL,
+    intInfo VARCHAR (255) CHARACTER SET UTF8 NULL,
+    intActief TINYINT(1)
+    ) engine=innoDB;
